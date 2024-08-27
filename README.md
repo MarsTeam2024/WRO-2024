@@ -67,6 +67,7 @@ The “while(true)” order that is used at the end of the void setup function c
 Additionally, In the Obstacle challenge, 2 If conditions are used to check if the connection with the HuskyLens camera is working.
 
 **The Additional Voids:**
+
 There are multiple voids used for the code, most of them are shared between open and obstacle challenge but some are only in the obstacle challenge, these shared voids are:
 
 •	“void readdistance(int trigPin, int echoPin, char u)” defines which ultrasonic sensor to read distance from.
@@ -102,5 +103,6 @@ When the Vehicle starts, it is mostly the same as the open challenge algorithm, 
 When the lap count reaches == 8, The Vehicle continues in the section until it sees the last sign color, if it’s green the Vehicle continues normally and stops after lap 12 as said in the open challenge, however if the color of the sign is red it will do U-turn around the red sign to change the vehicle’s direction and then continue the third lap until the lap count reaches 13.
 (Note: all of this is explained in detail inside the source code)
 
-#Conclusion
+# Conclusion
+
 This readme may have been long but it explains almost everything about the Mars Vehicle, how it behaves depending on specific circumstances, The way everything is connected, The Vehicle’s components and their role in the Vehicle, The Mars Team hopes this can be of use to future teams trying to compete or doing their own projects no matter what they are.
