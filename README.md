@@ -108,6 +108,14 @@ There are multiple voids used for the code, most of them are shared between open
 
 •	“void husky()” This function turns the camera on and specifies the position and color of the signs. (Obstacle Challenge only)
 
+•	"void First_Pillar_Check()" This function is used before the Vehicle starts moving to save the value of the first pillar the camera either (either Red or Green), And the saved value is used at the end of the second lap to determine whether to do a U-turn on the section or not. (Obstacle Challenge Only)
+
+•	"void turn" This function is used on the corners of the field to know if the Vehicle is moving either clockwise or counter-clockwise. (Obstacle Challenge Only)
+
+•	"void huskyread()" Is used to create an algorithm for passing the traffic signs either left or right depending on the color of the traffic sign. (Obstacle Challenge Only)
+
+•	"void U_Turn()" Is used to change the Vehicle's direction (clockwise/counter-clockwise) at the end of the second lap. (Obstacle Challenge Only)
+
 There are 2 different Algorithms for each Challenge, starting with:
 
 **Open Challenge:**
