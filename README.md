@@ -10,7 +10,7 @@ The Mars Team hopes for the Engineering Documentation Journal to help other peop
 
 # The Vehicle:
 
-The Mars Vehicle is approximately 25cm long, 20cm wide and 30cm high, the majority of its chassis was taken from multiple disassembled RC Cars, which consisted of a car body, 2 wheels for driving (forward, backwards), 2 wheels for steering (left, right), a DC Motor and new gears for it.
+The Mars Vehicle is approximately 25cm long, 19cm wide and 24cm high, the majority of its chassis was taken from multiple disassembled RC Cars, which consisted of a car body, 2 wheels for driving (forward, backwards), 2 wheels for steering (left, right), a DC Motor and new gears for it.
 
 The original DC Motor of the first RC car was not suitable enough for the Vehicle’s tasks, so it was replaced with a newer DC Motor that was taken from another RC Car which also had new gears alongside the DC Motor which gave it more torque and made it steadier. 
 
@@ -52,6 +52,7 @@ The Vehicle is powered by 3 Lithium batteries connected in parallel which all ou
 The HuskyLens camera came in clutch, for it has Onboard AI processing and learning capability, which makes up for not using additional controllers/microcontrollers, and that enables it to update readings and feedback in real time based on what the camera is seeing.
 
 This plays a major role in obstacle challenge, as the HuskyLens has built-in color recognition and object classification/recognition, which for example can help determine the route of the vehicle on the field based on the color of the traffic signs, etc…
+
 The HuskyLens camera is installed on a tall metal piece at the front of the vehicle, the reason this was done is so that the camera does not see anything beyond the field borders, which can cause interference with the camera and can make it provide false readings, the HuskyLens camera is connected directly to the Arduino board as every other component (also shown in the diagram), Both the Ultrasonic Sensors and the HuskyLens combined ensure the vehicle does not hit any walls or traffic signs, based on the calculations and readings of the camera that it collects in real time, all of which lower the chance of any unexpected events to happen.
 
 The HuskyLens also helps with the parallel parking in finding the borders and using its AI processing to figure out the best way to park the Vehicle IN PARALLEL without hitting the borders of the parking area.
