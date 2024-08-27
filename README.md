@@ -12,12 +12,15 @@ The original DC Motor of the first RC car was not suitable enough for the Vehicl
 Similar to the DC Motor, the original motor for the steering wheels was also not good enough for the task, so it was changed for a newer Servo Motor with higher precision and position readings.
 The main controller used for the Mars Vehicle is an Arduino Mega 2560 that controls all the components used for the vehicle, The reason no additional controllers or microcontrollers were used for the Vehicle is because of the Vehicle’s HuskyLens Camera that has AI real time tracking which basically makes up for not using additional controllers/microcontrollers, the HuskyLens camera will be explained later down the line.
 The components that were used for the Vehicle are the following:
+
+
 •	4 Ultrasonic Sensors.
 •	1 DC Motor, 1 Servo Motor.
 •	1 HuskyLens AI Tracking Camera.
 •	1 L298N Driver Motor.
 •	3 Lithium Batteries and a PMS (Power Management System).
 •	A USB Car Charger.
+
 
 # The Mobility Management System:
 
@@ -65,12 +68,19 @@ Additionally, In the Obstacle challenge, 2 If conditions are used to check if th
 
 **The Additional Voids:**
 There are multiple voids used for the code, most of them are shared between open and obstacle challenge but some are only in the obstacle challenge, these shared voids are:
+
 •	“void readdistance(int trigPin, int echoPin, char u)” defines which ultrasonic sensor to read distance from.
+
 •	“void readul()” orders all ultrasonics to read the distance at the same time, it is put in 1 function to save time, processing power and code lines.
+
 •	“void straight()”, “void right()”, “void left()” these functions control the Servo motor to steer the front-wheels.
+
 •	“void backward(int speedo)”, “void forward(int speedo)” Control the DC Motor speed and direction which changes the speed and the direction of the back wheels.
+
 •	“void stopdriving()” turns the DC Motor off which stops the Vehicle from moving.
+
 •	“void Right_Left_dis()” This void function will be explained at the Open Challenge Algorithm.
+
 •	“void husky()” This function turns the camera on and specifies the position and color of the signs. (Obstacle Challenge only)
 
 There are 2 different Algorithms for each Challenge, starting with:
