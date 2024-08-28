@@ -146,4 +146,4 @@ When the lap count reaches == 8, The Vehicle continues in the section until it s
 
 # Conclusion
 
-This readme may have been long but it explains almost everything about the Mars Vehicle, how it behaves depending on specific circumstances, The way everything is connected, The Vehicle’s components and their role in the Vehicle, The Mars Team hopes this can be of use to future teams trying to compete or doing their own projects no matter what they are.
+This readme may have been long but it explains almost everything about the Mars Vehicle, how it behaves depending on specific circumstances, The way everything is connected, The Vehicle’s components, their role in the Vehicle and the coding algorithm the Vehicle uses, The Mars Team hopes this can be of use to future teams trying to compete or doing their own projects no matter what they are.
