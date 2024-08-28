@@ -116,6 +116,10 @@ There are multiple voids used for the code, most of them are shared between open
 
 •	"void U_Turn()" Is used to change the Vehicle's direction (clockwise/counter-clockwise) at the end of the second lap. (Obstacle Challenge Only)
 
+•	"void Lap_8()" This function is used to do a U-Turn at the end of the second lap. (Obstacle Challenge Only)
+
+•	"void Lap_12()" This function is used to stop the Vehicle at the starting section after completing the 3 laps. (Obstacle Challenge Only)
+
 There are 2 different Algorithms for each Challenge, starting with:
 
 **Open Challenge:**
